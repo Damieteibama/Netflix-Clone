@@ -127,11 +127,15 @@ header{
 .tv-img{
     width: 100%;
 }
+
+/* adjusted the styles here */
 .tv-video-container{
     position:absolute;
-    width: 50%;
-    left: 38%;
+    width: 27%;
+    left: 54%;
     height: 100%;
+    top:772px;
+
     
  
 }
@@ -141,6 +145,48 @@ header{
 }
 
 /*Section-three*/
+
+.section-three-images-wrapper{
+    width: 50%;
+
+}
+
+.mobile-div>img{
+    position: relative;
+    width: 90%;
+    z-index: 1;   
+}
+
+.bottom-images{
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px ;
+    width: 60%;
+    position: relative ;
+    bottom:120px ;
+    left: 90px;
+    z-index: 2;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-around;
+
+
+}
+
+.bottom-images>img{
+    width: 15%;
+    height: 60px;  
+}
+
+
+.section-three-text-wrapper{
+    width:50%;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+
 .mobile-img{
     width:85%;
 }
